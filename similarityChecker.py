@@ -77,7 +77,7 @@ def compare_pdfs():
         messagebox.showerror("Error", "Could not extract text from one or both PDFs.")
 
 root = tk.Tk()
-root.title("PDF Similarity Checker")
+root.title("Text Similarity Checker")
 
 frame_pdf1 = tk.Frame(root)
 frame_pdf1.pack(pady=10, padx=10)
